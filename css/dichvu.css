@@ -1,0 +1,127 @@
+body {
+  background: black;
+  color: white; }
+  body img {
+    width: 30%; }
+  body hr {
+    background: white;
+    width: 10%;
+    height: 1px;
+    margin-top: 30px; }
+  body .img-top {
+    margin-top: 10px;
+    height: 400px;
+    width: 100%;
+    background-image: url("../img/cake-intro4.jpg");
+    background-position: center;
+    background-size: cover; }
+  body .service {
+    margin-top: 150px; }
+    body .service .col-sm-12 {
+      margin-top: 100px; }
+      body .service .col-sm-12 img {
+        opacity: .5;
+        border-radius: 50%;
+        background: white;
+        padding: 5px;
+        transition: .5s; }
+      body .service .col-sm-12 img:hover {
+        opacity: 1;
+        transform: scale(1.1, 1.1);
+        transition: .5s; }
+      body .service .col-sm-12 h4,
+      body .service .col-sm-12 p {
+        opacity: .7;
+        transition: .5s; }
+      body .service .col-sm-12 h4 {
+        text-transform: uppercase;
+        margin-top: 30px; }
+  body .partner h3 {
+    margin-top: 150px; }
+  body .partner .carousel-mr {
+    margin-top: 40px; }
+  body .partner img {
+    width: 100px;
+    margin: 0 100px; }
+  body .footer {
+    color: rgba(210, 218, 226, 0.8);
+    margin-top: 100px; }
+    body .footer .col-12 {
+      text-transform: uppercase; }
+      body .footer .col-12 input {
+        margin: 40px 0;
+        width: 30%;
+        background: transparent;
+        color: white;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid green; }
+      body .footer .col-12 span {
+        margin-left: -30px;
+        color: white;
+        cursor: pointer; }
+    body .footer li {
+      list-style-type: none; }
+    body .footer hr {
+      margin-bottom: 80px;
+      width: 90%;
+      background: rgba(210, 218, 226, 0.4); }
+    body .footer a {
+      text-decoration: none; }
+    body .footer .text-center i {
+      font-size: 30px;
+      margin: 25px 15px 0; }
+  body #progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background: white; }
+    body #buy{
+    cursor: pointer;
+    opacity: .4;
+    top: 350px;
+    right: 5px;
+    color: black;
+    position: fixed;
+    font-size: 20px;
+    padding: 5px 8px;
+    background: white;
+    width: 40px;
+    border-radius: 50%;
+  }
+  body #buy:hover{
+    opacity: 1;
+  }
+  body #buy span{
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    font-size: 12px;
+  }
+  body #scrolltop{
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    color: white;
+    padding: 10px 13px;
+    font-size: 20px;
+    background: rgba(39, 60, 117,.5);
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  body #scrolltop:hover{
+    background: rgba(39, 60, 117,1);
+  }
+
+::-webkit-scrollbar {
+  width: 0px; }
+
+@media (max-width: 576px) {
+  body .img-top {
+    height: 200px; }
+  body .footer .col-12 input {
+    width: 70%; }
+  body .footer .col-lg-3 {
+    text-align: center; } }

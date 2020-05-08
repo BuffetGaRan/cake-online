@@ -1,0 +1,323 @@
+body {
+  background: black; }
+  body #progress {
+    height: 2px;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0; }
+  body hr {
+    background: white;
+    width: 30%; }
+  body .mt {
+    margin-top: 30px; }
+  body .navbar {
+    background: rgba(47, 54, 64, 0.4); }
+  body .carousel {
+    padding: 2px;
+    background: white; }
+    body .carousel img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover; }
+  body input[type="text"],
+  body textarea,
+  body button {
+    outline: none;
+    box-shadow: none !important;
+    border: 1px solid #ccc !important; }
+  body .jumbotron {
+    margin-top: 100px;
+    background: #353b48; }
+    body .jumbotron h1,
+    body .jumbotron p {
+      color: white; }
+    body .jumbotron .__btn {
+      display: grid;
+      place-items: center; }
+      body .jumbotron .__btn button {
+        background: transparent;
+        color: white;
+        transition: .7s; }
+      body .jumbotron .__btn button:hover {
+        color: black;
+        background: white;
+        font-size: 18px;
+        transition: .7s; }
+  body .product {
+    margin-top: 100px; }
+    body .product .col-12 {
+      margin-bottom: 70px; }
+    body .product .card {
+      width: 330px;
+      height: 500px;
+      margin: 30px auto;
+      border-radius: 0px;
+      padding: 10px;
+      background: rgba(30, 39, 46, 0.7); }
+      body .product .card img {
+        border-radius: 0px;
+        height: 370px; }
+  body .btn-more {
+    display: grid;
+    place-items: center;
+    margin-top: 100px; }
+    body .btn-more button {
+      height: 60px;
+      width: 130px;
+      outline: none;
+      position: relative;
+      overflow: hidden;
+      background: rgba(30, 39, 46, 0.5); }
+      body .btn-more button:hover a {
+        text-decoration: none;
+        color: black;
+        transition: .5s; }
+      body .btn-more button a {
+        z-index: 100;
+        position: relative;
+        font-weight: bold;
+        transition: .5s;
+        color: white; }
+    body .btn-more button::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 150%;
+      background: white;
+      border-radius: 50%;
+      left: 0;
+      top: -88px;
+      z-index: 1;
+      transition: 1s; }
+    body .btn-more button:hover::after {
+      transform: scaleX(2);
+      margin-top: 80px;
+      transition: 1s; }
+  body .design {
+    margin-top: 100px; }
+    body .design .col-md-12 {
+      margin-top: 100px; }
+      body .design .col-md-12 img {
+        opacity: .5;
+        border-radius: 50%;
+        background: white;
+        padding: 5px;
+        transition: .5s; }
+      body .design .col-md-12 img:hover {
+        opacity: 1;
+        transform: scale(1.1, 1.1);
+        transition: .5s; }
+      body .design .col-md-12 h4,
+      body .design .col-md-12 p {
+        opacity: .7; }
+      body .design .col-md-12 h4{
+        margin-top: 20px;
+      }
+  body .more-info .more-info-img img {
+    width: 60%;
+    margin-top: 140px; }
+  body .more-info .more-info-text .card {
+    border-radius: 0px;
+    box-shadow: 1px 1px 5px white;
+    width: 60%; }
+  body .more-info .more-info-text .card:hover {
+    box-shadow: none; }
+  body .more-info .more-info-text a {
+    font-family: Comic Sans MS; }
+  body .picture img {
+    object-fit: cover; }
+  body .picture .img__top {
+    height: 500px;
+    margin-top: -100px;
+    width: 100%;
+    object-fit: cover; }
+  body .picture .img__body {
+    margin-left: 100px; }
+    body .picture .img__body img:hover {
+      box-shadow: 1px 1px 10px white; }
+    body .picture .img__body .img__body__1 {
+      width: 90%;
+      transform: rotate(-3deg); }
+    body .picture .img__body .img__body__2 {
+      height: 100px;
+      width: 80%;
+      margin-bottom: 30px;
+      transform: rotate(5deg); }
+    body .picture .img__body .img__body__3 {
+      width: 70%;
+      margin-bottom: 30px;
+      transform: rotate(-1deg); }
+  body .picture .img__footer img:hover {
+    box-shadow: 1px 1px 10px white; }
+  body .picture .img__footer .img__footer__1 {
+    width: 90%;
+    transform: rotate(3deg);
+    margin-left: 70px; }
+  body .picture .img__footer .img__footer__2 {
+    width: 50%;
+    height: 440px;
+    transform: rotate(-3deg);
+    margin-left: 70px; }
+  body .picture .img__footer .img__footer__3 {
+    height: 100px;
+    width: 100%;
+    margin: 40px -90px;
+    transform: rotate(-7deg); }
+  body .picture .img__footer .img__footer__4 {
+    height: 150px;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: -50px;
+    transform: rotate(0deg); }
+  body .order {
+    margin-top: 100px;
+    background: rgba(30, 39, 46, 0.6);
+    padding: 50px 0; }
+    body .order .form {
+      background: rgba(87, 95, 207, 0.3);
+      width: 50%;
+      padding: 20px;
+      border-radius: 20px; }
+      body .order .form input,
+      body .order .form textarea {
+        width: 100%;
+        margin: 10px 0; }
+    body .order img {
+      width: 20%; }
+    body .order h6 {
+      font-weight: bold; }
+    body .order p {
+      color: rgba(210, 218, 226, 0.5); }
+  body .footer {
+    color: rgba(210, 218, 226, 0.8);
+    margin-top: 100px; }
+    body .footer .col-12 {
+      text-transform: uppercase; }
+      body .footer .col-12 input {
+        margin: 40px 0;
+        width: 30%;
+        background: transparent;
+        color: white;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid green; }
+      body .footer .col-12 span {
+        margin-left: -30px;
+        color: white;
+        cursor: pointer; }
+    body .footer li {
+      list-style-type: none; }
+    body .footer hr {
+      margin-bottom: 80px;
+      width: 90%;
+      background: rgba(210, 218, 226, 0.4); }
+    body .footer a {
+      text-decoration: none; }
+    body .footer .text-center i {
+      font-size: 30px;
+      margin: 25px 15px 0; }
+  body #buy{
+    cursor: pointer;
+    opacity: .4;
+    top: 350px;
+    right: 5px;
+    color: black;
+    position: fixed;
+    font-size: 20px;
+    padding: 5px 8px;
+    background: white;
+    width: 40px;
+    border-radius: 50%;
+  }
+  body #buy:hover{
+    opacity: 1;
+  }
+  body #buy span{
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    font-size: 12px;
+  }
+  body #scrolltop{
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    color: white;
+    padding: 10px 13px;
+    font-size: 20px;
+    background: rgba(39, 60, 117,.5);
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  body #scrolltop:hover{
+    background: rgba(39, 60, 117,1);
+  }
+
+::-webkit-scrollbar {
+  width: 0px; }
+
+@media (max-width: 992px) {
+  body .design .col-md-12 h4 {
+    margin-top: 30px; }
+  body .picture .img__top {
+    height: 300px; }
+  body .picture .img__body .edit {
+    display: none; }
+  body .picture .img__body .col-6 img {
+    width: 300px;
+    margin-left: 200px; }
+  body .picture .img__footer .edit {
+    display: none; }
+  body .picture .img__footer .col-5 img {
+    width: 350px;
+    transform: rotate(7deg);
+    margin: 20px 300px -30px; } }
+
+@media (max-width: 768px) {
+  body .product .card {
+    width: 73%; } }
+
+@media (max-width: 576px) {
+  body .carousel img {
+    height: 200px;
+    width: 100%; }
+  body .jumbotron {
+    margin-top: 50px; }
+  body .product .col-12 {
+    margin: -100px 0 10px; }
+  body .product .card {
+    width: 100%; }
+  body .btn-more {
+    margin: 30px 0 -70px; }
+  body .design .col-md-12 h4 {
+    margin-top: 30px; }
+  body .more-info .more-info-img img {
+    width: 100%; }
+  body .more-info .more-info-text .card {
+    width: 100%; }
+  body .picture .img__top {
+    margin: 0px;
+    height: 250px; }
+  body .picture .img__body .edit {
+    display: none; }
+  body .picture .img__body .col-6 img {
+    width: 300px;
+    margin: 20px 0px; }
+  body .picture .img__footer .edit {
+    display: none; }
+  body .picture .img__footer .col-5 img {
+    width: 350px;
+    transform: rotate(7deg);
+    margin: 10px 60px -40px; }
+  body .order .form {
+    width: 65%; }
+  body .order .order-loiich {
+    margin-top: 60px; }
+    body .order .order-loiich .col-md-6:first-child {
+      top: -20px; }
+  body .footer .col-12 input {
+    width: 70%; }
+  body .footer .col-lg-3 {
+    text-align: center; } }

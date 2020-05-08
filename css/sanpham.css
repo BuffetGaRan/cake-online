@@ -1,0 +1,144 @@
+body {
+  color: white;
+  background: black; }
+  body .img-top {
+    margin-top: 10px;
+    height: 400px;
+    width: 100%;
+    background-image: url("../img/store-cake.jpg");
+    background-position: right bottom;
+    background-size: cover; }
+  body .sanpham {
+    margin-top: 100px; }
+    body .sanpham h2 {
+      font-weight: bold;
+      text-align: center; }
+    body .sanpham .card {
+      color: black;
+      padding: 10px;
+      margin: 30px 0;
+      height: 500px; }
+      body .sanpham .card img {
+        height: 350px; }
+    body .sanpham hr {
+      width: 60%;
+      height: .5px;
+      background: white;
+      margin-bottom: 50px; }
+  body .drop {
+    margin-top: -30px; }
+  body #btn-drop {
+    margin-top: 50px;
+    height: 60px;
+    width: 130px;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    background: rgba(30, 39, 46, 0.5); }
+    body #btn-drop:hover a{
+      text-decoration: none;
+      color: black;
+      transition: .5s; }
+    body #btn-drop a {
+      z-index: 100;
+      position: relative;
+      font-weight: bold;
+      transition: .5s;
+      color: white; }
+  body #btn-drop::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    background: white;
+    border-radius: 50%;
+    left: 0;
+    top: -88px;
+    z-index: 1;
+    transition: 1s; }
+  body #btn-drop:hover::after {
+    transform: scaleX(2);
+    margin-top: 80px;
+    transition: 1s; }
+  body .footer {
+    color: rgba(210, 218, 226, 0.8);
+    margin-top: 100px; }
+    body .footer .col-12 {
+      text-transform: uppercase; }
+      body .footer .col-12 input {
+        margin: 40px 0;
+        width: 30%;
+        background: transparent;
+        color: white;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid green; }
+      body .footer .col-12 span {
+        margin-left: -30px;
+        color: white;
+        cursor: pointer; }
+    body .footer li {
+      list-style-type: none; }
+    body .footer hr {
+      margin-bottom: 80px;
+      width: 90%;
+      background: rgba(210, 218, 226, 0.4); }
+    body .footer a {
+      text-decoration: none; }
+    body .footer .text-center i {
+      font-size: 30px;
+      margin: 25px 15px 0; }
+  body #progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background: white; }
+    body #buy{
+    cursor: pointer;
+    opacity: .4;
+    top: 350px;
+    right: 5px;
+    color: black;
+    position: fixed;
+    font-size: 20px;
+    padding: 5px 8px;
+    background: white;
+    width: 40px;
+    border-radius: 50%;
+  }
+  body #buy:hover{
+    opacity: 1;
+  }
+  body #buy span{
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    font-size: 12px;
+  }
+  body #scrolltop{
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    color: white;
+    padding: 10px 13px;
+    font-size: 20px;
+    background: rgba(39, 60, 117,.5);
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  body #scrolltop:hover{
+    background: rgba(39, 60, 117,1);
+  }
+
+::-webkit-scrollbar {
+  width: 0px; }
+
+@media (max-width: 576px) {
+  body .img-top {
+    height: 200px; }
+  body .footer .col-12 input {
+    width: 70%; }
+  body .footer .col-lg-3 {
+    text-align: center; } }
